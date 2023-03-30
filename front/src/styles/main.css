@@ -1,0 +1,94 @@
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+body{
+    background-color: #DBE2EF;
+    margin: 0;
+}
+
+#root{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #F9F7F7;
+    height: 100%;
+}
+
+#root *{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header{
+    width: 1536px;
+    background-color: #c781dd;
+    height: 50px;
+    box-shadow: -1px 5px 24px -9px rgba(250, 13, 13, 0.89);
+    -webkit-box-shadow: -1px 5px 24px -9px rgba(0,0,0,0.89);
+    -moz-box-shadow: -1px 5px 24px -9px rgba(0,0,0,0.89);
+    padding-top: 10px;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #c781dd;
+    color: white;
+    text-align: center;
+}
+
+nav a{
+    color: #DBE2EF;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.page{
+    box-sizing: border-box;
+    padding-left: 40px;
+    margin: 0 auto;
+    background-color: #F9F7F7;
+    height: 100%;
+}
+
+.page-name{
+    font-size: 26px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+
+.add-new-btn{
+    background-color: #c781dd;
+    width: 200px;
+    height: 40px;
+    color: #F9F7F7;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+    border: #c781dd;
+}
+
+.chart-container{
+    width: 600px;
+}
+
+.btn-cell input{
+    background-color: #c781dd;
+    color: #F9F7F7;
+    font-family: 'Roboto', sans-serif;
+    width: 70px !important;
+    height: 30px;
+    border: #c781dd;
+}
+
+.stock-info{
+    color: #c781dd  ;
+    font-size: 16px;
+    font-weight: 800;
+}

@@ -1,0 +1,24 @@
+table {
+	border-collapse: collapse;
+    font-family: 'Roboto', sans-serif;
+}
+table td {
+	padding: 15px;
+}
+table thead td {
+	background-color: #c781dd;
+	color: #DBE2EF;
+	font-weight: bold;
+	font-size: 16px;
+	border: 1px solid #c781dd;
+}
+table tbody td {
+	color: #c781dd;
+	border: 1px solid #dddfe1;
+}
+table tbody tr {
+	background-color: #f9fafb;
+}
+table tbody tr:nth-child(odd) {
+	background-color: #ffffff;
+}
